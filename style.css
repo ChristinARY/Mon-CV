@@ -1,0 +1,43 @@
+
+img {
+	display: flex;
+	align-content: center;
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	margin-top: 3em;
+	border: 4px #F2E13A solid;
+}
+#jaune
+{
+	background-color: #F2E13B;
+	display: flex;
+	flex-direction: column;	
+	width:25%;
+	color: black;
+}
+#blanc
+{
+	display: flex;
+	flex-direction: column;	
+	width:50%;
+	background-color: white;
+	color: black;
+}
+.disposition
+{
+	display: flex;
+	flex-direction: row;
+	margin-right: 2em;
+	min-height: 100%
+}
+.info
+{
+	display: flex;
+	flex-direction: row;
+}
+.element
+{
+	display: flex;
+	flex-direction: column;
+}
