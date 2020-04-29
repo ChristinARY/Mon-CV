@@ -24,7 +24,7 @@
 
 
 body {
-	width: 75%;
+	width: 100%;
 	margin: auto;
 	background-color: #F5F5F5;
 }
@@ -184,8 +184,8 @@ address {
 	justify-content: center;
 	margin-top: auto;
 	margin-bottom: 1em;
-	padding-left: : 4em;
-	padding-right: : : 4em;
+	padding-left: 4em;
+	padding-right : 4em;
 }
 
 .iconebloc { 
