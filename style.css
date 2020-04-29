@@ -22,9 +22,8 @@
     font-style: normal;
 }
 
-
 body {
-	width: 100%;
+	width: 75%;
 	margin: auto;
 	background-color: #F5F5F5;
 }
@@ -302,6 +301,11 @@ address {
 /* ----------------- Responsive -------------------- */
 
 @media screen and (max-width : 1024px) {
+	body {
+	width: 100%;
+	margin: auto;
+	background-color: #F5F5F5;
+}
 
 	.maincontent {
 		width:  auto; 
