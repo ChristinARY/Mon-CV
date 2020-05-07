@@ -22,8 +22,9 @@
     font-style: normal;
 }
 
+
 body {
-	width: 75%;
+	width: 100%;
 	margin: auto;
 	background-color: #F5F5F5;
 }
@@ -37,7 +38,7 @@ body {
 	color: #26373B;
 	text-align: justify;
 	min-height: 100%;
-	width: 100%;
+	width: 80%;
 	margin: auto;
 	font-size: 18px;
 	display: block;
@@ -69,7 +70,7 @@ h1 {
 	margin: 0px;
 	margin-top: 1em;
 	margin-left: 1em;
-	font-size: 4em;
+	font-size: 3.2em;
 }
 
 h2 > span {
@@ -110,7 +111,7 @@ img {
 
 .maphoto {
 	display: flex;
-	width: 25%;
+	width: 100%;
 	background-color: #006FC0;
 	justify-content: center;
 
@@ -183,8 +184,8 @@ address {
 	justify-content: center;
 	margin-top: auto;
 	margin-bottom: 1em;
-	padding-left: 4em;
-	padding-right : 4em;
+	padding-left: : 4em;
+	padding-right: : : 4em;
 }
 
 .iconebloc { 
@@ -301,11 +302,10 @@ address {
 /* ----------------- Responsive -------------------- */
 
 @media screen and (max-width : 1024px) {
-	body {
+	#pagecontent{
 	width: 100%;
 	margin: auto;
-	background-color: #F5F5F5;
-}
+	}
 
 	.maincontent {
 		width:  auto; 
@@ -325,10 +325,6 @@ address {
 		margin-bottom: 1em;
 	}
 
-	#top {
-		flex-direction: column;
-	}
-
 	.titre {
 		width: 100%;
     	text-align: center;
@@ -336,12 +332,12 @@ address {
 
 	#bloc_droite {
 		width: 100%;
-		order: 3;
+		order: 2;
 		margin-right: 1em;
 	}
 
 	#bloc_gauche {
-		order: 4;
+		order: 1;
 		width: 100%;
 	}
 
@@ -351,6 +347,7 @@ address {
 
 	.title_right {
 		margin: 0;
+		margin-bottom: 16px;
 	}
 
 	.experience_droite {
@@ -380,7 +377,7 @@ address {
 	}
 
 	.logo {
-		margin-left: 1em;
+		margin-left: 15px;
 	}
 
 	.date {
@@ -439,14 +436,23 @@ address {
 		width: 100%;
 		padding: 15px 0;
 		margin: 0;
+		text-align: center;
 	}
 
 	#block_recommandation p {
+		width: 100%;
 		padding-left: 25px;
 	}
 
 	h4, h5 {
-		margin-bottom: 5px;
-		text-align: start;
+		margin-bottom: 10px;
+	}
+
+	.title_left{
+		font-size: 130%;
+	}
+
+	h2{
+		font-size: 2.5em;
 	}
 }
