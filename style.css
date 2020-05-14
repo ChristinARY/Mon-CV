@@ -96,8 +96,8 @@ img {
 	height: 10em;
 	border-radius: 50%;
 	margin-top: 3em;
-	border: 0px #334352 outset;
-	box-shadow: 3px 3px 3px #334352;
+	border: 4px #02514D outset;
+	
 	
 }
 
@@ -167,6 +167,8 @@ p {
 	color: #006FC0;
 	text-align:center;
 	font-size: xx-large;
+	padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* ---------------- Contact ------------------- */
@@ -349,7 +351,7 @@ address {
 	}
 
 	.title_right {
-		margin: 0;
+		margin: 1em;
 		margin-bottom: 16px;
 	}
 
